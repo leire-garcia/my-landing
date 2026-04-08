@@ -33,3 +33,25 @@
   transform: scale(1.03);
   transition: 0.2s;
 }
+
+@media (max-width: 540px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card h3 {
+    padding-left: 0;
+    margin-top: 15px;
+  }
+}
+
